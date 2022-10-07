@@ -1444,8 +1444,8 @@
       {
         "type": "image_picker",
         "id": "favicon_khoi",
-        "label": "t:settings_schema.favicon.settings.favicon.label_khoi",
-        "info": "t:settings_schema.favicon.settings.favicon.info_khoi"
+        "label": "t:settings_schema.favicon.settings.favicon.label",
+        "info": "t:settings_schema.favicon.settings.favicon"
       }
     ]
   },
