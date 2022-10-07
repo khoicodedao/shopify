@@ -4,8 +4,8 @@
     "theme_name": "Dusk",
     "theme_version": "7.0.1",
     "theme_author": "Shopify",
-    "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
-    "theme_support_url": "https://support.shopify.com/"
+    "theme_documentation_url": "https:\/\/help.shopify.com\/manual\/online-store\/themes",
+    "theme_support_url": "https:\/\/support.shopify.com\/"
   },
   {
     "name": "t:settings_schema.colors.name",
@@ -1440,6 +1440,12 @@
         "id": "favicon",
         "label": "t:settings_schema.favicon.settings.favicon.label",
         "info": "t:settings_schema.favicon.settings.favicon.info"
+      },
+      {
+        "type": "image_picker",
+        "id": "favicon_khoi",
+        "label": "t:settings_schema.favicon.settings.favicon.label_khoi",
+        "info": "t:settings_schema.favicon.settings.favicon.info_khoi"
       }
     ]
   },
