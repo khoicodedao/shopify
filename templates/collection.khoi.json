@@ -24,7 +24,7 @@
         "padding_bottom": 36
       }
     },
-    "contact": {
+    "contactzzz": {
       "type": "contact-form",
       "settings": {
         "heading": "Contact form"
@@ -34,6 +34,6 @@
   "order": [
     "product-grid",
     "banner",
-    "contact"
+    "contactzzz"
   ]
 }
