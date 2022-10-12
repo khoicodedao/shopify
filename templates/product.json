@@ -213,12 +213,35 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "611ff5fd-fa52-4446-8aad-d34ce620f8e2": {
+      "type": "slideshownew",
+      "blocks": {
+        "template--15695136882840__611ff5fd-fa52-4446-8aad-d34ce620f8e2-1665542728a22f4bc8-0": {
+          "type": "slide",
+          "settings": {
+          }
+        },
+        "template--15695136882840__611ff5fd-fa52-4446-8aad-d34ce620f8e2-1665542728a22f4bc8-1": {
+          "type": "slide",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--15695136882840__611ff5fd-fa52-4446-8aad-d34ce620f8e2-1665542728a22f4bc8-0",
+        "template--15695136882840__611ff5fd-fa52-4446-8aad-d34ce620f8e2-1665542728a22f4bc8-1"
+      ],
+      "settings": {
+        "title": "Slideshow"
+      }
     }
   },
   "order": [
     "main",
     "image-with-text",
     "multicolumn",
-    "product-recommendations"
+    "product-recommendations",
+    "611ff5fd-fa52-4446-8aad-d34ce620f8e2"
   ]
 }
