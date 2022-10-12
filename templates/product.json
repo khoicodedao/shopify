@@ -213,12 +213,36 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "3c30a1bf-29b5-4741-ba7c-a12222e0f882": {
+      "type": "slideshownew",
+      "blocks": {
+        "template--15695136882840__3c30a1bf-29b5-4741-ba7c-a12222e0f882-166554636203917981-0": {
+          "type": "slide",
+          "settings": {
+          }
+        },
+        "template--15695136882840__3c30a1bf-29b5-4741-ba7c-a12222e0f882-166554636203917981-1": {
+          "type": "slide",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--15695136882840__3c30a1bf-29b5-4741-ba7c-a12222e0f882-166554636203917981-0",
+        "template--15695136882840__3c30a1bf-29b5-4741-ba7c-a12222e0f882-166554636203917981-1"
+      ],
+      "settings": {
+        "title": "Slideshow",
+        "subtitle": ""
+      }
     }
   },
   "order": [
     "main",
     "image-with-text",
     "multicolumn",
-    "product-recommendations"
+    "product-recommendations",
+    "3c30a1bf-29b5-4741-ba7c-a12222e0f882"
   ]
 }
