@@ -213,12 +213,18 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "530b483a-14fc-46ab-a305-d02275f173ce": {
+      "type": "product-card",
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
     "image-with-text",
     "multicolumn",
-    "product-recommendations"
+    "product-recommendations",
+    "530b483a-14fc-46ab-a305-d02275f173ce"
   ]
 }
