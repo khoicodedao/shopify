@@ -288,7 +288,12 @@
     </script>
 
     {%- if settings.predictive_search_enabled -%}
-      <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
+      <script src="{{ 'jquery.js' | asset_url }}" defer="defer"></script>
+      <script src="{{ 'price-range.js' | asset_url }}" defer="defer"></script>
+      <script src="{{ 'jquery.scrollUp.min.js' | asset_url }}" defer="defer"></script>
+      <script src="{{ 'bootstrap.min.js' | asset_url }}" defer="defer"></script>
+      <script src="{{ 'jquery.prettyPhoto.js' | asset_url }}" defer="defer"></script>
+     <script src="{{ 'main.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
   </body>
 </html>
