@@ -77,7 +77,9 @@
     "b4c922da-ae0e-4849-bc40-c19a6122f692": {
       "type": "img-with-text-new",
       "settings": {
-        "image1": "shopify:\/\/shop_images\/img_nature_wide.jpg"
+        "image1": "shopify:\/\/shop_images\/img_nature_wide.jpg",
+        "image2": "shopify:\/\/shop_images\/img_lights_wide.jpg",
+        "image3": "shopify:\/\/shop_images\/img_nature_wide.jpg"
       }
     }
   },
