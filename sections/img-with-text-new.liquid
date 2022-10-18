@@ -154,13 +154,21 @@ img {vertical-align: middle;}
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
-  <img src="https://www.w3schools.com/HOWTO/img_snow_wide.jpg" style="width:100%">
+  {%- if section.settings.image2 != blank -%}
+       <img src="{{ section.settings.image2 | image_url}}" style="width:100%">
+   {%- else -%}
+         <img src="https://www.w3schools.com/HOWTO/img_snow_wide.jpg" style="width:100%">
+  {%- endif -%}
   <div class="text">Caption Two</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
-  <img src="https://www.w3schools.com/HOWTO/img_mountains_wide.jpg" style="width:100%">
+  {%- if section.settings.image3 != blank -%}
+       <img src="{{ section.settings.image3 | image_url}}" style="width:100%">
+   {%- else -%}
+         <img src="https://www.w3schools.com/HOWTO/img_snow_wide.jpg" style="width:100%">
+  {%- endif -%}
   <div class="text">Caption Three</div>
 </div>
 
