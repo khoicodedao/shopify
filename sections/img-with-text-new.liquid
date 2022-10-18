@@ -10,7 +10,7 @@
     "settings": [
     {
       "type": "image_picker",
-      "id": "image1",
+      "id": "image",
       "label": "image"
     } 
     ],
@@ -132,16 +132,7 @@ img {vertical-align: middle;}
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
-  {%- if section.settings.image1 != blank -%}
-          {%- capture sizes -%}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2){%- endcapture -%}
-          {{ section.settings.image1 | image_url: width: 1500 | image_tag:
-            loading: 'lazy',
-            sizes: sizes,
-            widths: '165, 360, 535, 750, 1070, 1500'
-          }}
-        {%- else -%}
-          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-        {%- endif -%}
+  <img src="https://www.w3schools.com/HOWTO/img_nature_wide.jpg" style="width:100%">
   <div class="text">Caption Text</div>
 </div>
 
