@@ -13,6 +13,7 @@
         "title": {
           "type": "title",
           "settings": {
+            "text": "{{ product.title }}",
             "text_style": "uppercase"
           }
         },
