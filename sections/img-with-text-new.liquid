@@ -152,9 +152,14 @@ img {vertical-align: middle;}
    {%- else -%}
          <img src="https://www.w3schools.com/HOWTO/img_snow_wide.jpg" style="width:100%">
   {%- endif -%}
-  
- 
-  <div class="text">Caption Text</div>
+
+   {%- if section.settings.image1 != blank -%}
+       
+    <div class="text">section.settings.text1</div>
+   {%- else -%}
+         <img src="https://www.w3schools.com/HOWTO/img_snow_wide.jpg" style="width:100%">
+  {%- endif -%}
+
 </div>
 
 <div class="mySlides fade">
