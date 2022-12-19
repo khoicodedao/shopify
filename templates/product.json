@@ -13,6 +13,7 @@
         "title": {
           "type": "title",
           "settings": {
+            "text_style": "uppercase"
           }
         },
         "caption": {
